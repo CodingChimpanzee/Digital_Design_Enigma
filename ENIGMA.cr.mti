@@ -1,0 +1,23 @@
+C:/Users/rkd51/Desktop/EINGMA/plug.v {0 {vlog -work work -stats=none C:/Users/rkd51/Desktop/EINGMA/plug.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module plug
+-- Compiling module Enigma_Rotor
+** Error: (vlog-13069) C:/Users/rkd51/Desktop/EINGMA/plug.v(161): near "=": syntax error, unexpected '='.
+** Error: C:/Users/rkd51/Desktop/EINGMA/plug.v(161): (vlog-13205) Syntax error found in the scope following 't'. Is there a missing '::'?
+
+} {5.0 7.0} {}} C:/Users/rkd51/Desktop/EINGMA/reflector.v {1 {vlog -work work -stats=none C:/Users/rkd51/Desktop/EINGMA/reflector.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module reflector
+-- Compiling module tb_reflector
+
+Top level modules:
+	tb_reflector
+
+} {} {}} C:/Users/rkd51/Desktop/EINGMA/enigmamotor.v {1 {vlog -work work -stats=none C:/Users/rkd51/Desktop/EINGMA/enigmamotor.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5c Compiler 2017.01 Jan 23 2017
+-- Compiling module Enigma_Rotor
+
+Top level modules:
+	Enigma_Rotor
+
+} {} {}}
